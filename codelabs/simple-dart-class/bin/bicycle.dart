@@ -4,6 +4,12 @@ class Bicycle {
   int gear;
 
   Bicycle(this.cadence, this.speed, this.gear);
+
+  @override
+  String toString() => 'Bicycle: $speed mph';
 }
 
-void main(List<String> args) {}
+void main(List<String> args) {
+  var bike = Bicycle(2, 0, 1);
+  print(bike);
+}
