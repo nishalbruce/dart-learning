@@ -12,4 +12,9 @@ String toString() =>
       'Origin: (${origin.x}, ${origin.y}), width: $width, height: $height';
 }
 
-void main(List<String> args) {}
+void main(List<String> args) {
+  print(Rectangle(origin: const Point(10, 20), width: 100, height: 200));
+  print(Rectangle(origin: const Point(10, 10)));
+  print(Rectangle(width: 200));
+  print(Rectangle());
+}
