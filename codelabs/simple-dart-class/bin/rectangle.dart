@@ -9,7 +9,7 @@ class Rectangle {
 
   @override
 String toString() =>
-      'Origin: (${origin.x}, ${origin.y}), width: $width, height: $height';
+    'Origin: (${origin.x}, ${origin.y}), width: $width, height: $height';
 }
 
 void main(List<String> args) {
