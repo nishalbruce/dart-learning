@@ -4,6 +4,7 @@ void main(List<String> args) {
   describe("Hello");
   describe(true);
   describe({'key': 'value'});
+  describe([1,2,3,4,5]);
 
 }
 
