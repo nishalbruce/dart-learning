@@ -1,5 +1,9 @@
 void main(List<String> args) {
-  
+  describe(1);
+  describe(1.1);
+  describe("Hello");
+  describe(true);
+  describe({'key': 'value'});
 
 }
 
@@ -16,6 +20,9 @@ void describe<T>(T value){
       break;
     case bool:
       print("This is a boolean ");
+      break;
+    case Map<String, String>:
+      print("This is a map ");
       break;
     default:
       print("This is something else");
