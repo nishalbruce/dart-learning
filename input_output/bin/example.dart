@@ -13,7 +13,7 @@ void main() {
   String? lname = stdin.readLineSync();
   print("Your name is $lname");
 
-  ///Normally the std.readLineSync() return a string.
+  ///Normally the std.readLineSync() returns a string.
   ///If you want to get an int value as a user input, you have to convert it from String to integer
   ///To do that you use the parse function and put th exclamation point after the stdin functionn. 
   ///Look at the example below
