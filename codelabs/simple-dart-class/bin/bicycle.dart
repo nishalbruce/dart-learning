@@ -3,23 +3,23 @@ class Bicycle {
   int _speed = 0;
   int gear;
 
-//Getter
+  //Getter
   int get speed => _speed;
 
-//Constructor
+  //Constructor
   Bicycle(this.cadence, this.gear);
 
-//Functions
-void applyBrake(int decrement) {
-  _speed -= decrement;
-}
+  //Functions
+  void applyBrake(int decrement) {
+    _speed -= decrement;
+  }
 
-void speedUp(int increment) {
-  _speed += increment;
-}
+  void speedUp(int increment) {
+    _speed += increment;
+  }
 
   @override
-  String toString() => 'Bicycle: $cadence mph';
+  String toString() => 'Bicycle: $speed mph';
 }
 
 void main(List<String> args) {
